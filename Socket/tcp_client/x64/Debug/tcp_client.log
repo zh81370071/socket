@@ -1,0 +1,21 @@
+﻿生成启动时间为 2022/5/23 18:41:30。
+     1>项目“E:\知识库\2工程项目\C++\C语言小项目\01_C_socket_tcp_and_udp\Socket\tcp_client\tcp_client.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"x64\Debug\tcp_client.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Debug\tcp_client.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt tcp_client.cpp
+         tcp_client.cpp
+     1>tcp_client.cpp(32): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(283) : 参见“scanf”的声明
+     1>tcp_client.cpp(51): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(283) : 参见“scanf”的声明
+     1>tcp_client.cpp(52): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\知识库\2工程项目\C++\C语言小项目\01_C_socket_tcp_and_udp\Socket\x64\Debug\tcp_client.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\知识库\2工程项目\C++\C语言小项目\01_C_socket_tcp_and_udp\Socket\x64\Debug\tcp_client.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\知识库\2工程项目\C++\C语言小项目\01_C_socket_tcp_and_udp\Socket\x64\Debug\tcp_client.lib" /MACHINE:X64 x64\Debug\stdafx.obj
+         x64\Debug\tcp_client.obj
+         tcp_client.vcxproj -> E:\知识库\2工程项目\C++\C语言小项目\01_C_socket_tcp_and_udp\Socket\x64\Debug\tcp_client.exe
+     1>已完成生成项目“E:\知识库\2工程项目\C++\C语言小项目\01_C_socket_tcp_and_udp\Socket\tcp_client\tcp_client.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.78
